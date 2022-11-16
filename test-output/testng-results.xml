@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Register page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Female Gender is selected]]>
+    </line>
+    <line>
+      <![CDATA[FirstName is entered into FirstNameTextfield]]>
+    </line>
+    <line>
+      <![CDATA[LastName is entered into LastNameTextfield]]>
+    </line>
+    <line>
+      <![CDATA[Email is entered into EmailTextfield]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered into PasswordTextfield]]>
+    </line>
+    <line>
+      <![CDATA[Confirmpassword is entered into confirmpasswordTextfield]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-11-16T14:41:27 IST" name="Default suite" finished-at="2022-11-16T14:41:36 IST" duration-ms="8911">
+  <suite started-at="2022-11-16T18:15:44 IST" name="Default suite" finished-at="2022-11-16T18:16:07 IST" duration-ms="22877">
     <groups>
     </groups>
-    <test started-at="2022-11-16T14:41:27 IST" name="Default test" finished-at="2022-11-16T14:41:36 IST" duration-ms="8911">
-      <class name="Test.LoginTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Test.LoginTest@c88a337]" started-at="2022-11-16T14:41:27 IST" name="BrowserSetup" finished-at="2022-11-16T14:41:34 IST" duration-ms="7068" status="PASS">
+    <test started-at="2022-11-16T18:15:44 IST" name="Default test" finished-at="2022-11-16T18:16:07 IST" duration-ms="22877">
+      <class name="Test.RegisterTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Test.RegisterTest@13fd2ccd]" started-at="2022-11-16T18:15:44 IST" name="BrowserSetup" finished-at="2022-11-16T18:16:01 IST" duration-ms="17003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="login()[pri:0, instance:Test.LoginTest@c88a337]" started-at="2022-11-16T14:41:34 IST" name="login" finished-at="2022-11-16T14:41:35 IST" duration-ms="1460" status="PASS">
+        <test-method signature="Register()[pri:0, instance:Test.RegisterTest@13fd2ccd]" started-at="2022-11-16T18:16:01 IST" name="Register" finished-at="2022-11-16T18:16:06 IST" duration-ms="5293" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Register page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Female Gender is selected]]>
+            </line>
+            <line>
+              <![CDATA[FirstName is entered into FirstNameTextfield]]>
+            </line>
+            <line>
+              <![CDATA[LastName is entered into LastNameTextfield]]>
+            </line>
+            <line>
+              <![CDATA[Email is entered into EmailTextfield]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered into PasswordTextfield]]>
+            </line>
+            <line>
+              <![CDATA[Confirmpassword is entered into confirmpasswordTextfield]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.LoginTest@c88a337]" started-at="2022-11-16T14:41:35 IST" name="ClosingBrowser" finished-at="2022-11-16T14:41:36 IST" duration-ms="304" status="PASS">
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.RegisterTest@13fd2ccd]" started-at="2022-11-16T18:16:06 IST" name="ClosingBrowser" finished-at="2022-11-16T18:16:07 IST" duration-ms="515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosingBrowser -->
-      </class> <!-- Test.LoginTest -->
+      </class> <!-- Test.RegisterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,24 +9,21 @@ import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BasePage
-{
+public class BaseTest {
 	public static WebDriver driver;
-	
-	@BeforeClass(alwaysRun=true)
+
+	@BeforeClass(alwaysRun = true)
 	public void BrowserSetup() {
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://demowebshop.tricentis.com");
 	}
-	
-	@AfterClass(alwaysRun=true)
+
+	@AfterClass(alwaysRun = true)
 	public void ClosingBrowser() {
-	driver.quit();
+		driver.quit();
 	}
-	
-	
 
 }

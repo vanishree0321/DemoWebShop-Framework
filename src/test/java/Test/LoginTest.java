@@ -4,11 +4,10 @@ import static org.testng.Assert.assertTrue;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-
-import GenericLibrary.BasePage;
+import GenericLibrary.BaseTest;
 import POMPages.LoginPage;
 
-public class LoginTest extends BasePage {
+public class LoginTest extends BaseTest {
 	@Test
 	public void login()
 	{
